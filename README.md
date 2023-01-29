@@ -14,3 +14,6 @@ docker run --init \
  -e "LOCAL_DIR=./build/" \
  conduit-fe
 ```
+
+result </br>
+https://d2611kry1xskw0.cloudfront.net/
