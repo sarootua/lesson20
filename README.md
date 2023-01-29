@@ -6,9 +6,11 @@ step 1. </br>
 ` docker build -t conduit-fe ./project-frontend`
 
  step 3.</br>
-` docker run --init \</br>
- -e "AWS_ACCESS_KEY_ID=YOUR_KEY" \</br>
- -e "AWS_SECRET_ACCESS_KEY=YOUR_SECRET" \</br>
- -e "S3_BUCKET=YOUR_BUCKET_NAME" \</br>
- -e "LOCAL_DIR=./build/" \</br>
- conduit-fe`
+ ```
+docker run --init \
+ -e "AWS_ACCESS_KEY_ID=YOUR_KEY" \
+ -e "AWS_SECRET_ACCESS_KEY=YOUR_SECRET" \
+ -e "S3_BUCKET=YOUR_BUCKET_NAME" \
+ -e "LOCAL_DIR=./build/" \
+ conduit-fe
+```
