@@ -1,5 +1,5 @@
 # lesson20
-step 1.
+step 1. </br>
 ` AWS_ACCESS_KEY_ID=YOUR_KEY AWS_SECRET_ACCESS_KEY=YOUR_SECRET aws s3api create-bucket --bucket YOUR_BUCKET_NAME --region YOUR_REGION`
 
  step 2.
